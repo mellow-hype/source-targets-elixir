@@ -1,0 +1,50 @@
+
+<HTML><HEAD><TITLE></TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+</head>
+
+
+<H1>Aide D&eacute;clenchement de ports</H1> 
+<P>Certaines applications, tels que les jeux en ligne, la visioconf&eacute;rence ou la t&eacute;l&eacute;phonie sur IP, n&eacute;cessitent des connexions multiples. Le d&eacute;clenchement de ports sert &agrave; certaines d'entre elles, qui ne peuvent fonctionner avec un routeur NAT simple. </p> 
+<P><B>Description du fonctionnement </B>:</P> 
+<ol type=1> 
+<lI>Un h&ocirc;te local se connecte &agrave; un h&ocirc;te externe &agrave; l'aide du num&eacute;ro de port de destination d&eacute;fini dans le champ <B>Port de d&eacute;clenchement</B>.</lI> 
+<lI>Le routeur enregistre cette connexion, ouvre le ou les ports entrants associ&eacute;s &agrave; cette entr&eacute;e dans la table de <B>D&eacute;clenchement de ports</B> et les associe &agrave; l'h&ocirc;te local.</lI> 
+<lI>Si n&eacute;cessaire, l'h&ocirc;te externe peut se connecter &agrave; l'h&ocirc;te local &agrave; l'aide d'un des ports d&eacute;finis dans le champ <B>Ports entrants</B>.</lI> 
+</ol> 
+<P><B>R&egrave;gles</B> :</P> 
+<ul> 
+<lI><B>Port de d&eacute;clenchement</B> - Port trafic sortant. Une connexion sortante sur ce port d&eacute;clenchera la r&egrave;gle.</lI> 
+<lI><B>Protocole de d&eacute;clenchement</B> - Protocole utilis&eacute; pour les ports de d&eacute;clenchement : <B>TCP, </B><B>UDP</B> ou <B>Tous</B> (tous les protocoles pris en charge par le routeur).</lI> 
+<lI><B>Port entrant</B> - Plage de ports ou port utilis&eacute; par le syst&egrave;me distant pour r&eacute;pondre &agrave; la requ&ecirc;te sortante. Une r&eacute;ponse utilisant un de ces ports est transf&eacute;r&eacute;e &agrave; l'ordinateur qui a d&eacute;clench&eacute; cette r&egrave;gle. Vous pouvez saisir jusqu'&agrave; 5 groupes de ports. Chaque groupe de ports doit &ecirc;tre s&eacute;par&eacute; par une virgule. Ex. : 2000-2038, 2046, 2050-2051, 2085, 3010-3030.</lI> 
+<lI><B>Protocole entrant</B> - Protocole utilis&eacute; pour le port entrant : <B>TCP, </B><B>UDP</B> ou <B>Tous</B> (tous les protocoles pris en charge par le routeur).</lI> 
+<lI><B>&Eacute;tat</B> - &Eacute;tat de l'entr&eacute;e : Activ&eacute; signifie que le d&eacute;clenchement de ports est activ&eacute;.</lI> 
+<li><b>Modifier</b> - Permet de modifier ou de supprimer une entr&eacute;e.</li>
+<lI><B>Applications communes</B> - Applications d&eacute;j&agrave; pr&eacute;sentes dans la liste d&eacute;roulante Protocole entrant.</lI> 
+</ul> 
+<P><B>Pour ajouter une nouvelle r&egrave;gle, proc&eacute;dez comme suit sur l'&eacute;cran D&eacute;clenchement de ports</B> :</P> 
+<ol type=1> 
+<lI>Cliquez sur le bouton <B>Ajouter...</B>. </lI> 
+<lI>Dans le champ Port de d&eacute;clenchement, entrez le num&eacute;ro de port utilis&eacute; par l'application pour envoyer une requ&ecirc;te. </lI> 
+<lI>Dans la liste d&eacute;roulante <B>Port de d&eacute;clenchement</B>, s&eacute;lectionnez le protocole utilis&eacute; : <B>TCP</B>, <B>UDP</B> ou <B>Tous</B>.</lI> 
+<lI>Dans le champ Ports entrants, saisissez  la plage de ports utilis&eacute;e par le syst&egrave;me distant pour r&eacute;pondre &agrave; une requ&ecirc;te.</lI> 
+<lI>Dans la liste d&eacute;roulante <B>Ports entrants</B>, s&eacute;lectionnez le protocole utilis&eacute; : <B>TCP</B>, <B>UDP</B> ou <B>Tous</B>.</lI> 
+<lI>S&eacute;lectionnez <B>Activ&eacute;</B> dans la liste d&eacute;roulante du champ <B>&Eacute;tat</B>.</lI> 
+<lI>Cliquez sur le bouton <B>Enregistrer</B> pour sauvegarder la nouvelle r&egrave;gle.</lI> 
+</ol> 
+<P>La liste <B>Applications communes</B> &eacute;num&egrave;re de nombreuses applications. S&eacute;lectionnez-en-une ; les champs Port de d&eacute;clenchement et Ports entrants seront automatiquement remplis. Il en ira de m&ecirc;me si vous ajoutez une nouvelle r&egrave;gle.</P> 
+<P><B>Modifier ou supprimer une entr&eacute;e </B> :</P> 
+<ol type=1> 
+<lI>Recherchez l'entr&eacute;e souhait&eacute;e dans la table.</lI> 
+<lI>Cliquez sur <B>Modifier</B> ou <B>Supprimer</B> dans la colonne <B>Modifier</B>.</lI> 
+</ol> 
+<P>Cliquez sur le bouton <B>Tout activer</B> pour activer toutes les entr&eacute;es.</P> 
+<P>Cliquez sur le bouton <B>Tout d&eacute;sactiver</B> pour d&eacute;sactiver toutes les entr&eacute;es.</P> 
+<P>Cliquez sur le bouton <B>Tout Supprimer</B> pour effacer toutes les entr&eacute;es.</P> 
+<P>Cliquez sur <B>Suivant</B> ou <B>Pr&eacute;c&eacute;dent</B> pour acc&eacute;der &agrave; la page souhait&eacute;e. <P><B>Remarque :</B></P> 
+<ol type=1> 
+<lI>D&egrave;s que la connexion de d&eacute;clenchement est &eacute;tablie, les ports ouverts correspondants sont ferm&eacute;s.</lI> 
+<lI>Une r&egrave;gle ne peut &ecirc;tre utilis&eacute;e que par un seul h&ocirc;te du r&eacute;seau local &agrave; la fois. Toute autre connexion d&eacute;clench&eacute;e par un autre h&ocirc;te du LAN sera refus&eacute;e.</lI> 
+<lI>Les plages des <B>Ports entrants</B> ne peuvent se chevaucher.</lI> 
+</ol> 
+

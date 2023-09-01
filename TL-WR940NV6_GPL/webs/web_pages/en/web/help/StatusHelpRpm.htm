@@ -1,0 +1,43 @@
+<LINK href="../dynaform/css_help.css" rel=stylesheet>
+
+<SCRIPT language="javascript" src="../dynaform/custom.js" type="text/javascript"></SCRIPT>
+<H1>Aide &Eacute;tat</H1>
+<P> La page <B>&Eacute;tat</B> affiche l'&eacute;tat du routeur et sa configuration actuelle. Toutes ces informations sont en lecture seule.
+<P><B>LAN</B> - Les param&egrave;tres suivants concernent le port LAN du routeur. Vous pouvez les configurer sur la page <B>R&eacute;seau -&gt; LAN</B>.
+<UL>
+<LI><B>Adresse MAC</B> - Adresse physique du routeur, c&ocirc;t&eacute; LAN.
+<LI><B>Adresse IP</B> - Adresse IP LAN du routeur.
+<LI><B>Masque de sous-r&eacute;seau</B> - Masque de sous-r&eacute;seau associ&eacute; &agrave; l'adresse IP LAN.</LI>
+</UL>
+
+<P><B>Sans fil</B> - Param&egrave;tres ou informations sur le r&eacute;seau sans fil. Vous pouvez configurer ces param&egrave;tres sur la page <B>Sans fil -&gt; Param&egrave;tres Sans fil</B>.
+<UL>
+<LI><B>Radio sans fil</B> - Indique si la fonction Radio sans fil du routeur est activ&eacute;e ou non. <LI><B>Nom (SSID)</B> - SSID du routeur. <LI><B>Mode</B> - Mode de fonctionnement sans fil du routeur. </LI>
+<LI><B>Largeur du canal</B> - Bande passante du canal sans fil.</LI>
+<LI><B>Canal</B> - Canal sans fil utilis&eacute;. </LI>
+
+<LI><B>Adresse MAC</B> - Adresse physique du routeur, c&ocirc;t&eacute; WLAN.</LI>
+<SCRIPT type="text/javascript">
+if(wlan_wds)
+document.write("<LI><B>&Eacute;tat WDS</B> - &Eacute;tat de la connexion WDS, Init :  Connexion WDS d&eacute;sactiv&eacute;e ; Scanner : Recherche du point d'acc&egrave;s ; Auth : Tentative d'authentification ; ASSOC : Tentative d'association ; Ex&eacute;cuter : Association r&eacute;ussie</LI>");
+</SCRIPT>
+</UL>
+<P><B>WAN</B> - Les param&egrave;tres suivants concernent les ports WAN du routeur. Vous pouvez les configurer sur la page <strong><B>R&eacute;seau -&gt; WAN</B></strong>.
+<UL>
+<LI><B>Adresse MAC</B> - Adresse physique du port WAN, c&ocirc;t&eacute; Internet.
+<LI><B>Adresse IP</B> - Adresse IP WAN (Internet) actuelle. En cas d'adresse IP dynamique et en l'absence de connexion Internet, ce champ est vide ou contient &laquo; 0.0.0.0 &raquo;. <LI><B>Masque de sous-r&eacute;seau</B> - Masque de sous-r&eacute;seau associ&eacute; &agrave; l'adresse IP WAN.
+<LI><B>Passerelle par d&eacute;faut</B> - Passerelle utilis&eacute;e par le routeur. Si vous utilisez un type de connexion Internet par <b>IP dynamique</b>, le bouton <B>Renouveler</B> s'affiche. Cliquez sur ce bouton <B></B> pour obtenir dynamiquement les nouveaux param&egrave;tres IP de votre FAI. Si vous avez une adresse IP, le bouton <b>Obtenir</b> s'affiche. Cliquez sur ce bouton <b></b> pour afficher l'adresse IP fournie par votre FAI.
+<LI><B>Serveur DNS</B> - Adresses IP des serveurs DNS utilis&eacute;es par le routeur. La configuration d'adresses IP de plusieurs serveurs DNS est chose courante. En g&eacute;n&eacute;ral, le premier serveur DNS disponible est utilis&eacute;.</li>
+<LI><B>Dur&eacute;e de connexion</B> - Temps pass&eacute; en ligne. Si vous utilisez une connexion WAN de type<strong>PPPoE</strong>, votre dur&eacute;e de connexion s'affiche ici. Cliquez sur le bouton <strong>Connexion</strong>
+ou <strong>D&eacute;connexion</strong> pour vous (de)connecter d'Internet.</LI>
+</UL>
+<P><B>Connexion secondaire</B> - Si vous utilisez un autre type de connexion fourni par votre FAI pour acc&eacute;der &agrave; un r&eacute;seau local, ces param&egrave;tres s'afficheront ici.</P>
+<P><B>Statistiques de trafic</B> - Statistiques de trafic du routeur.
+<UL>
+<LI><B>Envoy&eacute;(s) (octets)</B> - Octets envoy&eacute;s du port WAN.</li>
+<LI><B>Envoy&eacute;(s) (paquets)</B> - Paquets envoy&eacute;s du port WAN.</LI>
+<li><b>Re&ccedil;u(s) (octets)</b> - Octets re&ccedil;us du port WAN.</li>
+<li><b>Re&ccedil;u(s) (paquets)</b> - Paquets re&ccedil;us du port WAN.</li>
+</UL>
+<P><B>Temps disponibilit&eacute; syst.</B> - Temps pendant lequel le routeur est disponible et en marche.
+<P>Cliquez sur le bouton <B>Actualiser</B> pour afficher l'&eacute;tat et les param&egrave;tres actuels du routeur. 

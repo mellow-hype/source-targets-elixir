@@ -1,0 +1,16 @@
+README:
+
+1. To Build both Toolchain and Firmware image: 
+   1.1 Host Ubuntu 12.04 or higher (Linux kernel 3.2.0) on x86 machine
+   1.2 Compiling tool version: gcc 4.6.3 or higher, GNU Make version 3.81
+
+2. Put the package TL-WR940NV6_GPL.tar.gz to a directory such as /home/TP-LINK, then extract the compressed files.
+   $ cd /home/TP-LINK
+   $ tar xzvf TL-WR940NV6_GPL.tar.gz
+
+To Build Firmware image:
+   1.1 Go to TL-WR940NV6_GPL build folder and execute make.
+   $ cd /home/TP-LINK/TL-WR940NV6_GPL/build
+   $ make
+   will generate the wr940nv6_ca_(xxx).bin, under TL-WR940NV6_GPL/images/wr940nv6_ca folder. 
+   xxx refers to flash, up or up_boot, with specific time-stamp and version info.

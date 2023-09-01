@@ -1,0 +1,43 @@
+
+<script language="JavaScript" src="../dynaform/custom.js" type="text/JavaScript"></script>
+<HTML><HEAD><TITLE></TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+</head>
+
+<H1>Aide Param&egrave;tres de configuration du r&eacute;seau sans fil</H1>
+<p><B>Remarque </B>: La port&eacute;e de votre connexion sans fil peut grandement varier selon la position de votre routeur. Pour des r&eacute;sultats optimaux, il est important de placer votre routeur :</P>
+
+<ul>
+<lI>au centre de vos stations sans fil.</lI>
+<lI>en hauteur, par exemple sur une &eacute;tag&egrave;re.</lI>
+<lI>loin de toute source d'interf&eacute;rences potentielle : ordinateurs, four &agrave; micro-ondes, t&eacute;l&eacute;phones sans fil...</lI>
+<lI>avec l'antenne en position verticale.</lI>
+<lI>loin de grandes surfaces m&eacute;talliques.</lI>
+
+</ul>
+<p><B>Remarque </B>: Le non-respect de ces consignes peut entra&icirc;ner une forte d&eacute;gradation des performances, voire l'impossibilit&eacute; d'activer la connexion sans fil au routeur.
+<p><B>Nom du r&eacute;seau sans fil</B> - Saisissez un nom de 32 caract&egrave;res max. Tous les p&eacute;riph&eacute;riques sans fil du r&eacute;seau devront utiliser ce nom (SSID).</p>
+<p><strong>R&eacute;gion</strong> - S&eacute;lectionnez votre r&eacute;gion dans la liste d&eacute;roulante.  Ce champ liste les r&eacute;gions o&ugrave; il est possible d'utiliser la fonction sans fil du routeur. Attention : Utiliser le routeur en mode sans fil dans une r&eacute;gion non list&eacute;e peut &ecirc;tre ill&eacute;gal. Si votre pays ou r&eacute;gion n'appara&icirc;t pas dans la liste, veuillez contacter l'administration locale comp&eacute;tente.</p>
+<p><B>Mode</B> - S&eacute;lectionnez le mode de transmission en fonction de votre appareil sans fil. </p>
+<p><B>Largeur du canal</B> - Bande passante du canal sans fil.</p>
+<p><B>Canal</B> - Indique la fr&eacute;quence de fonctionnement.  Il n'est pas n&eacute;cessaire de changer le canal sans fil, sauf en cas d'interf&eacute;rences constat&eacute;es avec un autre point d'acc&egrave;s &agrave; proximit&eacute;. En mode automatique, le point d'acc&egrave;s choisit automatiquement le meilleur canal.</p>
+
+
+<p><B>Activer radio routeur sans fil</B> - La radio sans fil du routeur peut &ecirc;tre (d&eacute;s)activ&eacute;e pour autoriser ou non l'acc&egrave;s aux stations sans fil. Activ&eacute; : les stations peuvent acc&eacute;der au routeur. D&eacute;sactiv&eacute; : les stations ne peuvent acc&eacute;der au routeur.</p>
+<p><B>Activer diffusion SSID</B> - Cochez cette option <B>Activer la diffusion SSID</B> si vous souhaitez que le routeur sans fil diffuse son nom (SSSID). </p>
+
+<DIV id="display_wds" style="display:none">
+<p><B>Activer pontage WDS</B> - Cette fonction permet au routeur d'&eacute;tablir un pont entre plusieurs r&eacute;seaux locaux sans fil. REMARQUE : Si cette case est coch&eacute;e, assurez-vous que les param&egrave;tres suivants sont corrects : </p>
+<p><B>SSID (&agrave; ponter)</B> - SSID du point d'acc&egrave;s auquel va se connecter votre routeur, en tant que client. Utilisez &eacute;galement la fonction Liste pour s&eacute;lectionner le SSID.</p>
+<p><B>BSSID (&agrave; ponter)</B> - BSSID du point d'acc&egrave;s auquel va se connecter votre routeur? en tant que client. Utilisez &eacute;galement la fonction Liste pour s&eacute;lectionner le BSSID.</p>
+<p><B>Liste</B> - Cliquez sur ce bouton pour rechercher le point d'acc&egrave;s qui utilise le canal.</p>
+<p><B>Mode WDS</B> - Ce champ indique le mode WDS utilis&eacute;. Inutile de le changer, sauf en cas de probl&egrave;mes de communication r&eacute;seau avec le point d'acc&egrave;s principal. En mode automatique, le routeur choisit automatiquement le mode WDS ad&eacute;quat.</p>
+<p><B>Type cl&eacute;</B> - Cette option doit &ecirc;tre choisie en fonction de la configuration de s&eacute;curit&eacute; du point d'acc&egrave;s. Le type de s&eacute;curit&eacute; doit &ecirc;tre le m&ecirc;me que celui du point d'acc&egrave;s.</p>
+<p><B>Index WEP</B> - Cette option doit &ecirc;tre choisie si le type de cl&eacute; est WEP (ASCII) ou WEP (HEX). Elle indique l'index de la cl&eacute; WEP.</p>
+<p><B>Type d'auth.</B> - Cette option doit &ecirc;tre choisie si le type de cl&eacute; est WEP (ASCII) ou WEP (HEX). Elle indique le type d'autorisation du point d'acc&egrave;s principal.</p>
+<p><B>Mot de passe</B> - Si le point d'acc&egrave;s auquel votre routeur va se connecter requiert un mot de passe, saisissez-le dans ce champ.</p>
+</DIV>
+
+<SCRIPT type="text/javascript">
+document.getElementById("display_wds").style.display = wlan_wds == 1? "" : "Aucun";
+</SCRIPT>

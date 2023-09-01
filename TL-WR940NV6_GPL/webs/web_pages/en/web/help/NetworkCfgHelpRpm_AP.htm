@@ -1,0 +1,31 @@
+
+<HTML><HEAD><TITLE></TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<SCRIPT language="JavaScript" src="../dynaform/custom.js" type="text/JavaScript"></SCRIPT>
+</head>
+
+
+<H1>Aide R&eacute;seau local</H1>
+<P>Sur cette page, vous pouvez configurer les param&egrave;tres IP du r&eacute;seau local.
+<ul>
+
+<lI><B>Adresse MAC</B>&nbsp;: adresse physique des ports LAN, c&ocirc;t&eacute; LAN. Cette valeur ne peut &ecirc;tre modifi&eacute;e.</lI>
+<lI><B>Type</B>&nbsp;: S&eacute;lectionnez &laquo;&nbsp;Smart IP(DHCP)&nbsp;&raquo; pour obtenir une adresse IP du serveur DHCP ou &laquo; IP statique &raquo; pour la configurer manuellement. Si vous choisissez Smart IP(DHCP), les &eacute;l&eacute;ments de configuration ci-dessous seront d&eacute;sactiv&eacute;s.</lI>
+<lI><B>Adresse IP</B>&nbsp;: Saisissez l'adresse IP de votre routeur en notation d&eacute;cimale point&eacute;e (adresse d'usine par d&eacute;faut&nbsp;:  <SCRIPT language="JavaScript">document.write(default_ap_lan_ip);</SCRIPT>).</lI>
+<lI><B>Masque de sous-r&eacute;seau</B>&nbsp;: code d'adresse qui d&eacute;termine la taille du r&eacute;seau. Le code utilis&eacute; habituellement comme masque de sous-r&eacute;seau est 255.255.255.0. </lI>
+<lI><B>Passerelle</B>&nbsp;: La passerelle doit appartenir au m&ecirc;me sous-r&eacute;seau que votre adresse IP.</lI>
+
+</ul>
+
+<p><B>Remarque</B>&nbsp;: </p>
+<ol type=1>
+<LI>Si vous changez l'adresse IP, vous devrez utiliser la nouvelle adresse pour vous connecter au syst&egrave;me.
+<LI>Si vous s&eacute;lectionnez le type Smart IP(DHCP), le serveur DHCP sur ce p&eacute;riph&eacute;rique ne d&eacute;marrera pas lorsqu'un autre serveur DHCP se trouve au sein du r&eacute;seau local.
+<LI>Si la nouvelle adresse IP LAN n'appartient pas au m&ecirc;me sous-r&eacute;seau, le pool d'adresses IP du serveur DHCP ne sera actif qu'une fois reconfigur&eacute;.
+<LI>Cliquez sur <B>Enregistrer</B>, le p&eacute;riph&eacute;rique red&eacute;marre automatiquement. 
+</ol>  
+<P>Cliquez sur <B>Enregistrer</B> pour sauvegarder vos param&egrave;tres.
+<p><B>Remarque</B>&nbsp;: Avec le type <B>Smart IP(DHCP)</B>, si votre TL-WR940N est connect&eacute; &agrave; un routeur, celui-ci enverra une Adresse IP/Passerelle dynamique &agrave; votre client. Sinon, ce dernier router obtiendra une Adresse IP/Passerelle au sein du r&eacute;seau si vous d&eacute;finissez les r&eacute;glages par d&eacute;faut ci-dessous. Ce type est recommand&eacute;.
+</DIV>
+</BODY></HTML>
+

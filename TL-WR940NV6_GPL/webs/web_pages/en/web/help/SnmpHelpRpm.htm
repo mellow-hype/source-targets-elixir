@@ -1,0 +1,26 @@
+
+<HTML><HEAD><TITLE></TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+</head>
+<H1>Aide Param&egrave;tres SNMP</H1>
+<p>Le Simple Network Management Protocol (SNMP) est un protocole largement d&eacute;ploy&eacute; pour surveiller et contr&ocirc;ler des r&eacute;seaux. 
+</p>
+
+<p><B>Agent SNMP</B> - S&eacute;lectionnez <B>Activer</B> si vous souhaitez activer la fonction de contr&ocirc;le distant via l'agent SNMPv1/v2 avec MIB-II. S&eacute;lectionnez <B>D&eacute;sactiver</B> pour fermer cette fonction.
+</p>
+<p></P>
+<p><B>SysContact</B> - Identification textuelle du contact de ce n&oelig;ud g&eacute;r&eacute;.</p>
+<p><B>SysName</B> - Nom assign&eacute; par l'administrateur au n&oelig;ud g&eacute;r&eacute;.</p>
+<p><B>SysLocation</B> - Emplacement du n&oelig;ud.</p>
+<P><B>Remarque&nbsp;:</B> L'utilisation de l'utilitaire en ligne pour sp&eacute;cifier l'une de ces valeurs active l'acc&egrave;s en lecture seule de l'objet. Dans le cas contraire, la requ&ecirc;te d'&eacute;criture prime (&agrave; condition que les param&egrave;tres de contr&ocirc;le d'acc&egrave;s le permettent), mais, au prochain red&eacute;marrage de l'agent, la valeur sera effac&eacute;e.
+</P>
+
+<p><B>Communaut&eacute; Get</B> - Saisissez le nom de communaut&eacute; autorisant l'acc&egrave;s aux informations SNMP du p&eacute;riph&eacute;rique en lecture seule. Ce nom peut &ecirc;tre assimil&eacute; &agrave; un mot de passe. Le r&eacute;glage par d&eacute;faut est <B>public</B>.
+<p><B>Source Get</B> - La source Get d&eacute;finit l'adresse IP ou le sous-r&eacute;seau pour les syst&egrave;mes de gestion qui peuvent lire les informations des p&eacute;riph&eacute;riques de la communaut&eacute; &laquo; get &raquo;.</p>
+<p><B>Communaut&eacute; Set</B> - Saisissez le nom de communaut&eacute; autorisant l'acc&egrave;s aux informations SNMP du p&eacute;riph&eacute;rique en lecture/&eacute;criture. Ce nom peut &ecirc;tre assimil&eacute; &agrave; un mot de passe. Le r&eacute;glage par d&eacute;faut est <B>priv&eacute;</B>.
+<p><B>Source Set</B> - La source Set d&eacute;finit l'adresse IP ou le sous-r&eacute;seau pour les syst&egrave;mes de gestion qui peuvent lire les informations des p&eacute;riph&eacute;riques de la communaut&eacute; &laquo; set &raquo;.</p>
+<P><B>Remarque&nbsp;:</B> Une source restreinte peut &ecirc;tre une adresse IP sp&eacute;cifique (par exemple : 10.10.10.1) ou un sous-r&eacute;seau sous forme d'IP/BITS (par exemple 10.10.10.0/24). Si une adresse IP 0.0.0.0 est sp&eacute;cifi&eacute;e, l'agent accepte toutes les requ&ecirc;tes sous le nom de communaut&eacute; correspondant.
+</P>
+
+<p>Cliquez sur <B>Enregistrer</B> pour sauvegarder vos param&egrave;tres. </p>
+

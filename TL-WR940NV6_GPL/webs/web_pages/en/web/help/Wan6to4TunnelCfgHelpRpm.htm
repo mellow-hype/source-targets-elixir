@@ -1,0 +1,43 @@
+
+<HTML><HEAD><TITLE></TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+</head>
+<H1>Aide WAN IPv6</H1>
+
+<p><B>Activer IPv6 :</B>D&eacute;s/Activation de la fonction IPv6.</P>
+<p><B>Type de connexion WAN&nbsp;:</B> </p>
+<p>S&eacute;lectionnez le bon type de connexion WAN en fonction de la topologie du r&eacute;seau de votre FAI. </p> 
+
+<ul> 
+<lI><B>SLAAC</B>&nbsp;: Connexion par attribution d'une adresse IPv6 Radvd. </li>
+<lI><B>DHCPv6</B>&nbsp;: Connexion par attribution d'une adresse IPv6 dynamique.</li>
+<lI><B>IPv6 statique</B>&nbsp;: Connexion par attribution d'une adresse IPv6 statique.</li>
+<lI><B>PPPoEv6</B>&nbsp;: Connexion PPPoEv6 n&eacute;cessitant un identifiant et un mot de passe.</li>
+<lI><B>Tunnel 6to4</B>&nbsp;: Connexion par attribution d'une adresse 6to4.</li>
+</ul> 
+
+<p><B>Adresse </B>&nbsp;: Adresse IPv4 assign&eacute;e dynamiquement par votre FAI.</p>
+<p><B>Masque de sous-r&eacute;seau</B>&nbsp;: Adresse IPv4 assign&eacute;e dynamiquement par votre FAI.</p>
+<p><B>Passerelle par d&eacute;faut</B>&nbsp;: Passerelle IPv4 par d&eacute;faut assign&eacute;e dynamiquement par votre FAI.</p>
+<p><b>Adresse tunnel</b>&nbsp;: Adresse tunnel 6to4 cr&eacute;&eacute;e par le p&eacute;riph&eacute;rique pour acc&eacute;der au r&eacute;seau IPv6.</p>
+<p><B>Taille MTU</B>&nbsp;: La Valeur de la MTU (Maximum Transmit Unit, unit&eacute; de transmission maximale ) normale pour la plupart des r&eacute;seaux Ethernet est 1500 octets. Cependant, en fonction de votre FAI, il se peut que vous deviez la changer. Toutefois, cela est rarement n&eacute;cessaire&nbsp;; ne proc&eacute;dez &agrave; la modification que si cela est requis pour votre connexion FAI.</p>
+
+<p>Si votre FAI vous a fourni une ou deux adresses IPv6 DNS, s&eacute;lectionnez l'option <B>Utiliser les serveurs DNS IPv6 suivants</B> et remplissez les champs <B>DNS IPv6 primaire</B> et <B>DNS IPv6 secondaire</B>. Sinon, les serveurs DNS sont assign&eacute;s dynamiquement par le FAI.</p>
+<p><B>DNS IPv6 primaire</B>&nbsp;: saisissez l'adresse IPv6 DNS en notation hexad&eacute;cimale s&eacute;par&eacute;e par des doubles points fournie par votre FAI.</p>
+<p><B>DNS IPv6 secondaire</B>&nbsp;: saisissez une autre adresse IPv6 DNS en notation d&eacute;cimale s&eacute;par&eacute;e par des doubles points fournie par votre FAI.</p>
+
+<p><B>Remarque :</B> Si le message d'erreur &laquo; Adresse introuvable &raquo; s'affiche lorsque vous acc&eacute;dez &agrave; un site Internet, cela peut provenir d'un mauvais param&eacute;trage des serveurs DNS. Nous vous conseillons dans ce cas de contacter votre FAI pour obtenir les adresses correctes.</p>
+
+<P><B>Configuration LAN</B></P>
+<p><B>Type d'autoconfiguration d'adresse</B>&nbsp;: Serveur <B>RADVD</B> (Router Advertisement Daemon) et <B>DHCPv6</B> (Dynamic Host Configuration Protocol for IPv6).</lI>
+<p><B>Type de configuration de pr&eacute;fixe de site</B>&nbsp;: Type de pr&eacute;fixe d'adresse IPv6.</lI>
+<ul> 
+<lI><B>D&eacute;l&eacute;gu&eacute;</B>&nbsp;: Obtention automatique du pr&eacute;fixe d'adresse IPv6 aupr&egrave;s du FAI&nbsp;; le p&eacute;riph&eacute;rique le d&eacute;l&egrave;gue au r&eacute;seau LAN.</li>
+<lI><B>Statique</B>&nbsp;: Configuration manuelle du <b>Pr&eacute;fixe du site</b> et de la <b>Longueur du pr&eacute;fixe de site</b>. Veuillez contacter votre FAI pour en savoir plus sur leur configuration.</li>
+</ul>
+<p><B>Bail</B>&nbsp;: Cette option d&eacute;finit la dur&eacute;e pendant laquelle un utilisateur r&eacute;seau est autoris&eacute; &agrave; se connecter au routeur avec l'adresse DHCPv6 en cours. Saisissez la dur&eacute;e du bail de l'adresse DHCPv6 en secondes. L'intervalle va de 1 &agrave; 691 200 secondes. La valeur par d&eacute;faut est de 86 400 secondes.</lI>
+<p><B>Adresse IPv6 LAN</B>&nbsp;: affiche l'adresse vIPv6 LAN. cr&eacute;&eacute; par le p&eacute;riph&eacute;rique. </lI>
+</ul>
+<P>Cliquez sur <B>Enregistrer</B> pour sauvegarder vos param&egrave;tres.</p>
+</BODY></HTML>
+

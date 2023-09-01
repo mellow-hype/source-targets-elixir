@@ -1,0 +1,5 @@
+wr940nv6_ca: httpd_build
+	make apxxfus_fs_prep enet=ag7240	 lang=en oem_dir=WR940N6.0_CA
+	make mk_squashfs_build fs_size=0x2E0000
+	make image_build prefix=wr940nv6_ca
+

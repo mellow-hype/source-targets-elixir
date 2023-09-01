@@ -1,0 +1,40 @@
+<LINK href="../dynaform/css_help.css" rel=stylesheet>
+
+<H1>Aide &Eacute;tat</H1>
+<P> La page <B>&Eacute;tat</B> affiche la configuration et l'&eacute;tat du syst&egrave;me. Toutes ces informations sont en lecture seule.
+<P><B>Filaire</B>&nbsp;: Informations du r&eacute;seau local filaire. Vous pouvez configurer ces param&egrave;tres sur la page <B>R&eacute;seau</B>.
+<UL>
+<LI><B>Adresse MAC</B>&nbsp;: Adresse physique du routeur, c&ocirc;t&eacute; LAN.
+<LI><B>Adresse IP</B>&nbsp;: Adresse IP LAN filaire.
+<LI><B>Masque de sous-r&eacute;seau</B>&nbsp;: masque de sous-r&eacute;seau associ&eacute; &agrave; l'adresse IP.</LI>
+</UL>
+
+<P><B>Sans fil</B>&nbsp;: Param&egrave;tres ou informations sur le r&eacute;seau sans fil. Vous pouvez configurer ces param&egrave;tres sur la page <B>Sans fil -&gt; Param&egrave;tres Sans fil</B>.
+<UL>
+<LI><B>Mode de fonctionnement</B>&nbsp;: Mode de fonctionnement du point d'acc&egrave;s. <LI><B>Nom sans fil AP principal (distant)</B>&nbsp;: SSID du point d'acc&egrave;s principal (distant). <LI><B>Canal</B>&nbsp;: canal sans fil utilis&eacute;. </LI>
+<LI><B>Mode</B>&nbsp;: Mode sans fil actuellement utilis&eacute; par le point d'acc&egrave;s. </LI>
+<LI><B>Largeur du canal</B>&nbsp;: bande passante du canal sans fil.</LI>
+<LI><B>D&eacute;bit d'&eacute;mission max.</B>&nbsp;: D&eacute;bit d'&eacute;mission maximale.</LI>
+<LI><B>Adresse MAC</B>&nbsp;: Adresse physique du point d'acc&egrave;s, c&ocirc;t&eacute;  WLAN.</LI>
+<SCRIPT type="text/javascript">
+var mode = window.parent.mainFrame.sysMode();
+if(3 == mode)
+{
+document.write("<LI><B>&Eacute;tat Client</B> - &Eacute;tat du client, Init : connexion d&eacute;sactiv&eacute;e ; Scanner : Recherche du point d'acc&egrave;s ; Auth : Tentative d'authentification ; ASSOC : Tentative d'association ; Ex&eacute;cuter&nbsp;: Association r&eacute;ussie</LI>");
+}
+else if(6 == mode)
+{
+document.write("<LI><B>&Eacute;tat du r&eacute;p&eacute;teur</B>&nbsp;: &Eacute;tat du R&eacute;p&eacute;teur, Init : connexion d&eacute;sactiv&eacute;e ; Scanner : Recherche du point d'acc&egrave;s ; Auth : Tentative d'authentification ; ASSOC : Tentative d'association ; Ex&eacute;cuter&nbsp;: Association r&eacute;ussie</LI>");
+}
+</SCRIPT>	
+</UL>
+
+<P><B>Statistiques de trafic</B>&nbsp;: Statistiques de trafic du syst&egrave;me.
+<UL>
+<LI><B>Envoy&eacute;(s) (octets)</B>&nbsp;: Octets envoy&eacute;s du port WLAN.</li>
+<LI><B>Envoy&eacute;(s) (paquets)</B>&nbsp;: Paquets envoy&eacute;s du port WLAN.</LI>
+<li><b>Re&ccedil;u(s) (octets)</b>&nbsp;: Octets re&ccedil;us du port WLAN.</li>
+<li><b>Re&ccedil;u(s) (paquets)</b>&nbsp;: Paquets re&ccedil;us du port WLAN.</li>
+</UL>
+<P><B>Temps disponibilit&eacute; syst</B>&nbsp;: Temps pendant lequel le point d'acc&egrave;s est disponible et en marche.
+<P>Cliquez sur le bouton <B>Actualiser</B> pour afficher l'&eacute;tat et les param&egrave;tres actuels du point d'acc&egrave;s. 

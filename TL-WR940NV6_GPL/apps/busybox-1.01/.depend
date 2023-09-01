@@ -1,0 +1,1058 @@
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/init/halt.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/init/halt.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/init.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/init/poweroff.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/init/poweroff.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/init.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/init/init.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/init/init.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/syslogd.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/init/coredumps.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/extra/quiet.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/init/swapon.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/use/inittab.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/initrd.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/init/init_shared.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/init/init_shared.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/initrd.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/init.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/init/mesg.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/init/mesg.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/init/reboot.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/init/reboot.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/init.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/modutils/insmod.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/modutils/insmod.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/2/4/modules.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/2/6/modules.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/insmod/loadinkmem.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/insmod/version/checking.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/use/list.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/list/archtype.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/use/single.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/use/plt/entries.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/use/got/entries.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/use/plt/list.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/got/entry/size.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/plt/entry/size.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/check/tainted/module.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/insmod/ksymoops/symbols.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/insmod/load/map.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/insmod/load/map/full.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/modutils/lsmod.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/modutils/lsmod.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/check/tainted/module.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/query/module/interface.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/modutils/modprobe.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/modutils/modprobe.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/2/6/modules.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/modutils/rmmod.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/modutils/rmmod.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/2/6/modules.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/query/module/interface.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/loginutils/vlock.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/loginutils/vlock.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/shadowpasswds.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/loginutils/delline.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/loginutils/delline.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/loginutils/addgroup.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/loginutils/addgroup.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/pwd_.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/pwd_.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/grp_.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/grp_.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/shadowpasswds.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/adduser.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/loginutils/su.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/loginutils/su.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/utmp.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/selinux.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/loginutils/delgroup.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/loginutils/delgroup.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/deluser.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/shadowpasswds.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/loginutils/passwd.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/loginutils/passwd.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/shadowpasswds.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/loginutils/adduser.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/loginutils/adduser.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/shadowpasswds.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/addgroup.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/loginutils/deluser.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/loginutils/deluser.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/shadowpasswds.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/loginutils/login.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/loginutils/login.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/selinux.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/utmp.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/securetty.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/wheel/group.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/wtmp.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/loginutils/getty.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/loginutils/getty.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/utmp.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/syslogd.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/wtmp.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/loginutils/sulogin.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/loginutils/sulogin.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/shadowpasswds.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libpwdgrp/pwd_grp.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libpwdgrp/pwd_grp.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/pwd_.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/pwd_.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/grp_.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/grp_.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/shadow_.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/shadow_.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/console-tools/loadfont.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/console-tools/loadfont.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/console-tools/loadkmap.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/console-tools/loadkmap.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/console-tools/deallocvt.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/console-tools/deallocvt.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/console-tools/reset.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/console-tools/reset.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/console-tools/chvt.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/console-tools/chvt.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/console-tools/dumpkmap.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/console-tools/dumpkmap.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/console-tools/clear.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/console-tools/clear.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/console-tools/setkeycodes.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/console-tools/setkeycodes.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/console-tools/openvt.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/console-tools/openvt.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/hostname.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/hostname.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/ping6.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/ping6.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/fancy/ping6.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/fancy/ping.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/ping.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/ping.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/fancy/ping.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/libiproute/iptunnel.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/libiproute/iptunnel.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/libiproute/iproute.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/libiproute/iproute.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/libiproute/libnetlink.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/libiproute/libnetlink.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/libiproute/ipaddress.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/libiproute/ipaddress.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/libiproute/utils.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/libiproute/utils.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/libiproute/ll_addr.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/libiproute/ll_addr.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/libiproute/ip_parse_common_args.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/libiproute/ip_parse_common_args.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/libiproute/iplink.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/libiproute/iplink.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/nc.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/nc.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/iptunnel.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/iptunnel.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/ifconfig.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/ifconfig.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/inet_common.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/inet_common.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ifconfig/slip.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ipv6.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ifconfig/broadcast/plus.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ifconfig/hw.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ifconfig/memstart/ioaddr/irq.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ifconfig/status.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/netstat.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/netstat.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/inet_common.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/inet_common.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/pwd_.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/pwd_.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/route.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ipv6.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/wget.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/wget.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/wget/statusbar.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/wget/authentication.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/wget/ip6/literal.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/httpd.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/httpd.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/lfs.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/httpd/usage/from/inetd/only.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/httpd/basic/auth.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/httpd/cgi.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/httpd/config/with/mime/types.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/httpd/encode/url/str.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/httpd/set/remote/port/to/env.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/httpd/auth/md5.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/httpd/reload/config/sighup.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/httpd/setuid.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/iproute.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/iproute.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/ftpgetput.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/ftpgetput.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/ftpget.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/ftpput.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/vconfig.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/vconfig.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/traceroute.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/traceroute.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/inet_common.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/inet_common.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/traceroute/verbose.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/traceroute.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/traceroute/so/debug.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/route.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/route.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/inet_common.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/inet_common.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ipv6.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/ipaddr.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/ipaddr.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/nslookup.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/nslookup.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/brctl.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/brctl.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/ipcalc.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/ipcalc.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ipcalc/fancy.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/tftp.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/tftp.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/tftp/blocksize.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/tftp/debug.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/tftp/get.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/tftp/put.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/nameif.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/nameif.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/ip.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/ip.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ip/address.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ip/route.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ip/link.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ip/tunnel.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/inetd.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/inetd.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/inetd/support/biltin/echo.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/inetd/support/biltin/discard.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/inetd/support/biltin/time.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/inetd/support/biltin/daytime.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/inetd/support/biltin/chargen.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/telnetd.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/telnetd.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ipv6.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/login.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/telnetd/inetd.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/devpts.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/telnet.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/telnet.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/telnet/ttype.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/telnet/autologin.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/autowidth.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/iplink.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/iplink.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/arping.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/arping.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/ifupdown.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/networking/ifupdown.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ifupdown/mapping.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ifupdown/ip.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ifupdown/ipx.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ifupdown/ipv6.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ifupdown/ipv4.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/sysklogd/logger.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/sysklogd/logger.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/syslogd.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/sysklogd/logread.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/sysklogd/logread.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/logread/reduced/locking.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/sysklogd/klogd.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/sysklogd/klogd.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/sysklogd/syslogd.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/sysklogd/syslogd.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/rotate/logfile.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/remote/log.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ipc/syslog.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ipc/syslog/buffer/size.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/findutils/xargs.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/findutils/xargs.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/xargs/support/confirmation.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/xargs/support/quotes.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/xargs/support/termopt.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/xargs/support/zero/term.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/findutils/find.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/findutils/find.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/find/type.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/find/perm.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/find/mtime.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/find/xdev.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/find/newer.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/find/inum.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/findutils/grep.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/findutils/grep.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/grep/context.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/grep/egrep/alias.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/grep/fgrep/alias.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/unzip.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/unzip.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/uncompress.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/uncompress.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/gunzip.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/gunzip.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/gunzip/uncompress.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/cpio.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/cpio.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/tar.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/tar.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/tar/create.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/tar/from.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/tar/gzip.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/tar/compress.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/tar/bzip2.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/tar/long/options.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/dpkg.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/dpkg.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/deb/tar/gz.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/deb/tar/bz2.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/ar.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/ar.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/gzip.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/gzip.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/gunzip.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/bunzip2.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/bunzip2.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/rpm2cpio.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/rpm2cpio.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/decompress_uncompress.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/decompress_uncompress.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/config.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/config.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/data_extract_to_buffer.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/data_extract_to_buffer.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/filter_accept_list_reassign.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/filter_accept_list_reassign.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/deb/tar/gz.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/deb/tar/bz2.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/get_header_tar_bz2.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/get_header_tar_bz2.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/archive_xread_all.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/archive_xread_all.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/archive_xread_all_eof.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/archive_xread_all_eof.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/data_align.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/data_align.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/get_header_tar.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/get_header_tar.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/tar/gnu/extensions.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/tar/oldgnu/compatability.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/data_extract_all.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/data_extract_all.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/open_transformer.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/open_transformer.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/seek_by_jump.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/seek_by_jump.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/unarchive/tape.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/find_list_entry.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/find_list_entry.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/filter_accept_list.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/filter_accept_list.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/get_header_ar.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/get_header_ar.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ar/long/filenames.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/header_skip.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/header_skip.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/filter_accept_reject_list.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/filter_accept_reject_list.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/data_skip.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/data_skip.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/header_list.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/header_list.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/filter_accept_all.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/filter_accept_all.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/header_verbose_list.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/header_verbose_list.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/unpack_ar_archive.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/unpack_ar_archive.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/decompress_unzip.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/decompress_unzip.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/config.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/config.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/get_header_tar_gz.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/get_header_tar_gz.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/check_header_gzip.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/check_header_gzip.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/init_handle.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/init_handle.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/data_extract_to_stdout.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/data_extract_to_stdout.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/seek_by_char.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/seek_by_char.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/decompress_bunzip2.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/decompress_bunzip2.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/get_header_cpio.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/libunarchive/get_header_cpio.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/dpkg_deb.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/dpkg_deb.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/deb/tar/gz.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/deb/tar/bz2.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/rpm.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/archival/rpm.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/mtab_file.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/mtab_file.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/mtab/support.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/mtab/filename.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/process_escape_sequence.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/process_escape_sequence.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/herror_msg_and_die.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/herror_msg_and_die.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/last_char_is.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/last_char_is.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/find_pid_by_name.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/find_pid_by_name.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/selinux.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/llist_add_to.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/llist_add_to.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/unarchive.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/wfopen_input.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/wfopen_input.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/correct_password.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/correct_password.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/shadowpasswds.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/hash_fd.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/hash_fd.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/sha1sum.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/md5sum.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/copyfd.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/copyfd.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/safe_write.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/safe_write.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/module_syscalls.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/module_syscalls.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/speed_table.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/speed_table.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/run_shell.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/run_shell.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/selinux.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/trim.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/trim.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/xgethostbyname.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/xgethostbyname.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/herror_msg.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/herror_msg.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/obscure.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/obscure.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/perror_msg.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/perror_msg.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/warn_ignoring_args.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/warn_ignoring_args.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/interface.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/interface.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/inet_common.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/inet_common.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ipv6.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/device_open.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/device_open.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/xfuncs.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/xfuncs.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/restricted_shell.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/restricted_shell.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/full_read.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/full_read.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/pw_encrypt.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/pw_encrypt.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/sha1/passwords.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/kernel_version.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/kernel_version.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/recursive_action.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/recursive_action.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/remove_file.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/remove_file.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/safe_read.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/safe_read.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/pwd2spwd.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/pwd2spwd.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/shadow_.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/shadow_.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/error_msg_and_die.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/error_msg_and_die.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/vfork_daemon_rexec.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/vfork_daemon_rexec.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/xreadlink.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/xreadlink.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/vdprintf.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/vdprintf.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/my_getpwuid.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/my_getpwuid.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/pwd_.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/pwd_.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/get_console.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/get_console.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/getopt_ulflags.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/getopt_ulflags.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/isdirectory.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/isdirectory.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/xregcomp.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/xregcomp.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/simplify_path.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/simplify_path.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/qmodule.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/qmodule.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/change_identity.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/change_identity.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/chomp.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/chomp.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/run_parts.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/run_parts.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/fflush_stdout_and_exit.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/fflush_stdout_and_exit.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/login.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/login.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/create_icmp_socket.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/create_icmp_socket.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/printf.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/printf.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/skip_whitespace.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/skip_whitespace.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/get_line_from_file.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/get_line_from_file.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/fclose_nonstdin.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/fclose_nonstdin.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/read_package_field.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/read_package_field.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/my_getgrnam.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/my_getgrnam.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/pwd_.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/pwd_.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/grp_.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/grp_.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/copy_file.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/copy_file.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/preserve/hardlinks.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/perror_nomsg.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/perror_nomsg.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/loop.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/loop.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/print_file.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/print_file.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/procps.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/procps.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/selinux.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/xconnect.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/xconnect.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/fgets_str.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/fgets_str.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/concat_path_file.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/concat_path_file.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/make_directory.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/make_directory.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/inode_hash.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/inode_hash.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/verror_msg.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/verror_msg.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/safe_strtol.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/safe_strtol.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/xgetlarg.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/xgetlarg.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/create_icmp6_socket.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/create_icmp6_socket.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ipv6.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/find_mount_point.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/find_mount_point.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/perror_nomsg_and_die.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/perror_nomsg_and_die.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/my_getpwnam.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/my_getpwnam.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/pwd_.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/pwd_.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/grp_.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/grp_.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/get_terminal_width_height.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/get_terminal_width_height.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/autowidth.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/parse_mode.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/parse_mode.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/default_error_retval.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/default_error_retval.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/find_root_device.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/find_root_device.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/devfs.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/safe_strncpy.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/safe_strncpy.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/full_write.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/full_write.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/my_getgrgid.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/my_getgrgid.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/grp_.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/grp_.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/mtab.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/mtab.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/vherror_msg.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/vherror_msg.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/ask_confirmation.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/ask_confirmation.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/dump.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/dump.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/dump.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/dump.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/bb_asprintf.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/bb_asprintf.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/syscalls.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/syscalls.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/concat_subpath_file.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/concat_subpath_file.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/error_msg.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/error_msg.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/inet_common.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/inet_common.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/inet_common.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/inet_common.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ipv6.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/vperror_msg.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/vperror_msg.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/xgetcwd.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/xgetcwd.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/messages.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/messages.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/xgethostbyname2.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/xgethostbyname2.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ipv6.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/perror_msg_and_die.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/perror_msg_and_die.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/wfopen.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/wfopen.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/human_readable.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/human_readable.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/xgetularg.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/xgetularg.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/setup_environment.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/setup_environment.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/parse_number.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/parse_number.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/my_getug.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/libbb/my_getug.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/freeramdisk.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/freeramdisk.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/fdformat.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/fdformat.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/mkswap.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/mkswap.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/mkfs_minix.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/mkfs_minix.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/minix2.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/nfsmount.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/nfsmount.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/more.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/more.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/use/termios.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/losetup.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/losetup.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/rdate.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/rdate.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/hwclock.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/hwclock.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/hwclock/longoptions.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/fdisk.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/fdisk.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/sun/label.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/sgi/label.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/aix/label.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/osf/label.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/fdisk/writable.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/fdisk/advanced.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/weird/partition/types.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/fdisk/blksize.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/fsck_minix.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/fsck_minix.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/minix2.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/mount.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/mount.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/nfsmount.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/mount/loop.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/mtab/support.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/fdflush.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/fdflush.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/hexdump.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/hexdump.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/dump.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/dump.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/dmesg.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/dmesg.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/fbset.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/fbset.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/fbset/fancy.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/fbset/readmode.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/umount.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/umount.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/mount/force.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/mount/loop.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/mtab/support.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/pivot_root.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/pivot_root.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/getopt.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/getopt.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/swaponoff.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/util-linux/swaponoff.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/stty.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/stty.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/length.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/length.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/md5_sha1_sum.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/md5_sha1_sum.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/md5/sha1/sum/check.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/md5sum.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/sha1sum.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/install.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/install.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/false.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/false.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/wc.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/wc.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/locale/support.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/du.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/du.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/human/readable.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/du/defalt/blocksize/1k.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/chroot.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/chroot.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/echo.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/echo.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/fancy/echo.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/rmdir.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/rmdir.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/expr.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/expr.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/touch.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/touch.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/dd.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/dd.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/mkdir.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/mkdir.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/tail.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/tail.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/fancy/tail.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/uname.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/uname.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/cat.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/cat.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/chown.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/chown.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/who.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/who.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/dirname.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/dirname.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/realpath.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/realpath.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/env.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/env.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/chmod.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/chmod.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/rm.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/rm.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/libcoreutils/cp_mv_stat.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/libcoreutils/cp_mv_stat.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/libcoreutils/xgetoptfile_sort_uniq.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/libcoreutils/xgetoptfile_sort_uniq.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/libcoreutils/getopt_mk_fifo_nod.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/libcoreutils/getopt_mk_fifo_nod.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/ls.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/ls.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/selinux.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ls/timestamps.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ls/sortfiles.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ls/followlinks.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/human/readable.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ls/filetypes.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ls/color.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/autowidth.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ls/recursive.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/locale/support.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/ls/username.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/ln.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/ln.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/true.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/true.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/df.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/df.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/human/readable.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/test.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/test.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/test/64.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/whoami.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/whoami.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/tty.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/tty.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/seq.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/seq.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/dos2unix.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/dos2unix.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/logname.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/logname.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/printf.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/printf.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/date.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/date.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/date/isofmt.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/chgrp.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/chgrp.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/sleep.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/sleep.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/fancy/sleep.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/fold.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/fold.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/mv.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/mv.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/cut.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/cut.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/tr.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/tr.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/cp.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/cp.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/usleep.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/usleep.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/od.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/od.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/dump.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/dump.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/mknod.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/mknod.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/uniq.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/uniq.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/pwd.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/pwd.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/uuencode.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/uuencode.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/sort.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/sort.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/cmp.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/cmp.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/id.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/id.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/pwd_.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/pwd_.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/selinux.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/cal.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/cal.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/locale/support.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/yes.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/yes.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/watch.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/watch.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/basename.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/basename.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/head.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/head.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/fancy/head.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/uudecode.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/uudecode.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/mkfifo.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/mkfifo.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/sync.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/sync.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/tee.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/tee.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/tee/use/block/io.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/hostid.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/coreutils/hostid.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/debianutils/run_parts.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/debianutils/run_parts.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/debianutils/mktemp.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/debianutils/mktemp.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/debianutils/readlink.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/debianutils/readlink.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/debianutils/start_stop_daemon.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/debianutils/start_stop_daemon.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/pwd_.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/pwd_.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/debianutils/which.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/debianutils/which.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/debianutils/pipe_progress.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/debianutils/pipe_progress.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/shell/hush.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/shell/hush.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/command/editing.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/sh/standalone/shell.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/sh/extra/quiet.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/shell/ash.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/shell/ash.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/pwd_.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/pwd_.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/ash/job/control.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/ash/alias.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/ash/optimize/for/size.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/ash/math/support.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/ash/cmdcmd.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/ash/getopts.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/sh/extra/quiet.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/ash/mail.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/ash/math/support/64.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/ash/random/support.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/locale/support.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/command/savehistory.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/command/editing.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/sh/standalone/shell.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/command/tab/completion.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/shell/lash.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/shell/lash.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/locale/support.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/lash/pipe/n/redirects.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/lash/job/control.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/command/editing.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/sh/standalone/shell.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/sh/extra/quiet.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/shell/cmdedit.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/shell/cmdedit.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/../shell/cmdedit.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/../shell/cmdedit.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/locale/support.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/command/tab/completion.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/command/editing.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/command/username/completion.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/getusername/and/homedir.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/pwd_.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/pwd_.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/command/history.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/nonprintable/inverse/put.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/ash.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/command/savehistory.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/shell/msh.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/shell/msh.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/command/editing.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/sh/fancy/prompt.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/sh/extra/quiet.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/sh/standalone/shell.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/miscutils/time.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/miscutils/time.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/miscutils/devfsd.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/miscutils/devfsd.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/devfsd/modload.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/devfsd/verbose.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/debug.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/devfsd/fg/np.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/file.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/modules/devfs.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/miscutils/watchdog.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/miscutils/watchdog.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/miscutils/makedevs.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/miscutils/makedevs.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/miscutils/strings.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/miscutils/strings.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/miscutils/adjtimex.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/miscutils/adjtimex.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/miscutils/hdparm.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/miscutils/hdparm.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/hdparm/get/identity.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/hdparm/hdio/getset/dma.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/hdparm/hdio/unregister/hwif.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/hdparm/hdio/scan/hwif.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/hdparm/hdio/tristate/hwif.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/hdparm/hdio/drive/reset.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/miscutils/crond.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/miscutils/crond.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/crond/call/sendmail.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/miscutils/last.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/miscutils/last.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/miscutils/crontab.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/miscutils/crontab.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/miscutils/dc.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/miscutils/dc.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/miscutils/rx.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/miscutils/rx.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/miscutils/ethreg.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/miscutils/ethreg.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/athrs_ctrl.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/athrs_ctrl.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/miscutils/mt.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/miscutils/mt.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/procps/uptime.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/procps/uptime.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/procps/top.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/procps/top.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/use/termios.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/selinux.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/procps/kill.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/procps/kill.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/killall.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/procps/pidof.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/procps/pidof.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/procps/ps.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/procps/ps.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/selinux.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/procps/renice.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/procps/renice.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/procps/free.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/procps/free.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/procps/sysctl.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/procps/sysctl.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/editors/awk.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/editors/awk.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/awk/math.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/editors/sed.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/editors/sed.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/clean/up.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/editors/vi.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/editors/vi.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/locale/support.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/vi/optimize/cursor.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/vi/use/signals.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/vi/crashme.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/vi/dot/cmd.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/vi/yankmark.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/vi/readonly.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/vi/search.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/vi/colon.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/vi/win/resize.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/vi/setopts.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/vi/set.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/editors/patch.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/editors/patch.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/libbb.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/applets/busybox.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/applets/busybox.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/locale/support.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/installer.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/init.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/autowidth.h)
+/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/applets/applets.o: /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/applets/applets.c \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/busybox.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/usage.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/usage.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/applets.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/applets.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/applets.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/applets.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/suid.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/suid/config.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/pwd_.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/pwd_.h) \
+ /home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/grp_.h $(dep_/home/wyw/Documents/model_qca_949v5/model_qca/apps/busybox-1.01/include/grp_.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/feature/suid/config/quiet.h) \
+   $(wildcard /home/wyw/Documents/model_qca_949v5/model_qca/config/file.h)

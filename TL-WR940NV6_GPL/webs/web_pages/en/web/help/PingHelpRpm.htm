@@ -1,0 +1,29 @@
+
+<HTML><HEAD><TITLE></TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+</head>
+
+
+<H1>Aide Outils de diagnostic</H1> 
+<P>Les outils de diagnostic (PING et Traceroute) vous permettent de v&eacute;rifier les connexions de vos composants r&eacute;seau.</p> 
+<P><B>Outil de diagnostic</B> - Cliquez sur le bouton radio pour s&eacute;lectionner un outil de diagnostic :</P> 
+<ul> 
+<lI><B>PING</B> - Cet outil de diagnostic permet de r&eacute;soudre les probl&egrave;mes de connectivit&eacute;, d'accessibilit&eacute; et de r&eacute;solution de nom consistant &agrave; envoyer une requ&ecirc;te ICMP Echo et &agrave; attendre une r&eacute;ponse Echo reply d'un h&ocirc;te ou d'une passerelle. Vous pouvez utiliser le PING pour tester &agrave; la fois une adresse IP num&eacute;rique et un nom de domaine. Si le PING de l'adresse IP est concluant, mais que celui du nom de domaine &eacute;choue, vous avez certainement un probl&egrave;me de r&eacute;solution de nom. Dans ce cas, essayez de r&eacute;soudre le probl&egrave;me de nom de domaine &agrave; l'aide des requ&ecirc;tes DNS.</lI> 
+<lI><B>Traceroute</B> - Cet utilitaire d&eacute;termine le chemin d'un paquet de donn&eacute;es jusqu'&agrave; un h&ocirc;te donn&eacute; en envoyant des messages ICMP (Echo Request) avec des valeurs TTL variables jusqu'&agrave; destination. Au cours du transfert, chaque passerelle du chemin d&eacute;cr&eacute;mente d'au moins 1 la valeur TTL du paquet IP. Le TTL indique le nombre maximal de liaisons. Lorsque le TTL sur un paquet est de 0, la passerelle envoie un message d'erreur ICMP Time Exceeded &agrave; votre p&eacute;riph&eacute;rique. Traceroute d&eacute;termine le chemin en envoyant un premier message Echo Request avec un TTL &eacute;gal &agrave; 1, puis l'incr&eacute;mente de 1 &agrave; chaque transmission jusqu'&agrave; ce que la cible r&eacute;ponde ou que le maximum de sauts soit atteint. Le nombre maximum par d&eacute;faut est de 20. Il peut &ecirc;tre sp&eacute;cifi&eacute; dans &laquo; TTL max traceroute &raquo;. Le chemin est d&eacute;termin&eacute; par l'examen des messages ICMP Time Exceeded envoy&eacute;s par les passerelles interm&eacute;diaires, ainsi que par le message Echo Reply renvoy&eacute;. Cependant, certaines passerelles n'envoient pas de messages Time Exceeded pour les paquets dont le TTL a expir&eacute; et sont donc invisibles pour l'outil traceroute. Dans ce cas, le traceroute affiche une ligne d'ast&eacute;risques (*) pour ce saut. </lI> 
+</ul> 
+
+<p><B>Adresse IP/nom domaine</B> - Saisissez l'adresse IP ou le nom de domaine du PC dont vous souhaitez analyser la connexion.</p> 
+<p><B>Nombre de PING</B> - Indique le nombre de messages Echo Request envoy&eacute;s. La valeur par d&eacute;faut est 4. </p>
+<p><B>Taille du paquet PING</B> - Indique le nombre d'octets &agrave; transmettre. La valeur par d&eacute;faut est 64.</p>
+<p><B>D&eacute;lai d'attente d&eacute;pass&eacute;</B> - Temps d'attente pour une r&eacute;ponse, en millisecondes. La valeur par d&eacute;faut est 800.</p>
+<p><B>TTL max. traceroute</B> - Param&eacute;trez le nombre maximal de sauts (TTL max. &agrave; atteindre) sur le chemin pour chercher la cible (destination). La valeur par d&eacute;faut est 20.  </p>
+
+<P>Cliquez sur <B>D&eacute;marrer</B> pour lancer la proc&eacute;dure de diagnostic.</p>
+
+
+<P><B>Remarque :</B></P> 
+<ol type=1> 
+<lI>Un seul utilisateur &agrave; la fois peut utiliser les outils de diagnostic.</lI>
+<lI>&laquo; Nombre de PING &raquo;, &laquo; Taille du paquet PING &raquo; et &laquo; D&eacute;lai d'attente d&eacute;pass&eacute; &raquo; sont des Param&egrave;tres PING. &laquo; Traceroute Max TTL &raquo; est un Param&egrave;tre Traceroute.</lI> 
+</ol> 
+

@@ -1,0 +1,41 @@
+
+<HTML><HEAD><TITLE></TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<script language="JavaScript" src="../dynaform/custom.js" type="text/JavaScript"></script>
+</head>
+
+<H1>Aide Mise &agrave; niveau du firmware</H1>
+<P>Pour mettre &agrave; niveau le firmware du p&eacute;riph&eacute;rique, proc&eacute;dez comme suit : </P>
+<ol type=1>
+<lI id="t_show_website" style="display:none">T&eacute;l&eacute;chargez la version la plus r&eacute;cente du fichier de mise &agrave; niveau sur notre site Web (<a href="#" onClick="openWindow();" class=L1>
+<script language="JavaScript" type="text/JavaScript">
+document.write(our_web_site);
+</script>	
+</a>). </lI>
+
+<lI>Dans le champ <B>Nom fichier</B>, s&eacute;lectionnez ou saisissez le nom du chemin d'acc&egrave;s au fichier t&eacute;l&eacute;charg&eacute; sur le PC. </lI>
+
+<lI>Cliquez sur le bouton <B>Mise &agrave; niveau</B>. </lI>
+
+<lI>Le p&eacute;riph&eacute;rique red&eacute;marrera, une fois la mise &agrave; niveau termin&eacute;e.</lI>
+</ol>
+<p><B>Version firmware</B> - Affiche la version actuelle du firmware. </p>
+<p><B>Version mat&eacute;rielle</B> -  Affiche la version mat&eacute;rielle actuelle. La version mat&eacute;rielle du fichier de mise &agrave; niveau doit correspondre &agrave; la version mat&eacute;rielle utilis&eacute;e.</p>
+<p><B>Remarque : </b> La version du firmware doit correspondre &agrave; celle du mat&eacute;riel utilis&eacute;. Le processus de mise &agrave; niveau dure quelques minutes, le p&eacute;riph&eacute;rique red&eacute;marre automatiquement une fois cette &eacute;tape termin&eacute;e. Gardez l'appareil sous tension durant tout le processus. Une coupure pourrait endommager le p&eacute;riph&eacute;rique.</p>
+
+</DIV>
+</BODY></HTML>
+
+<script language="JavaScript">
+var tpNewWin; 
+function openWindow()	
+{
+if(tpNewWin) 
+tpNewWin.close(); 
+tpNewWin = window.open("http://"  + our_web_site, "", "" );
+}
+if(display_upgrade_site == 1)
+{
+document.getElementById("t_show_website").style.display="";
+}
+</SCRIPT>
